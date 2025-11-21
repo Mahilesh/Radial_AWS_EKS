@@ -14,6 +14,7 @@ WARNING: version difference between client (1.29) and server (1.33) exceeds the 
 ```
 aws eks update-kubeconfig --name <cluster_name> --region <region_name> --profile <aws_account_name>
 
-Ex:- aws eks update-kubeconfig --name rom-usw2-dev --region us-west-2 --profile rom-npd-dev
+[root@lvsdevmahileshsbx01 ~]# aws eks update-kubeconfig --name rom-usw2-dev --region us-west-2 --profile rom-npd-dev
+Updated context arn:aws:eks:us-west-2:638351355854:cluster/rom-usw2-dev in /root/.kube/config
 ```
 ---
